@@ -15,7 +15,7 @@
 
 <h1>Contect us</h1>
 
-<form name="contact" method="POST" action="https://affectionate-kirch-bc271d.netlify.app/thank" enctype="https://affectionate-kirch-bc271d.netlify.app/thank">
+<form name="demo-contact-form" method="POST" netlify action="/thank">
   <p>
     <label>
       姓名:
@@ -35,8 +35,12 @@
     </label>
   </p>
   <p>
-    <input type="hidden" name="_next" value="https://affectionate-kirch-bc271d.netlify.app/thank">
-    <input type="hidden" name="_captcha" value="https://affectionate-kirch-bc271d.netlify.app/thank">
+    <label>
+      Attachment:
+      <input type="file" name="attachment">
+    </label>
+  </p>
+  <p>
     <input type="submit" value="Send">
   </p>
 </form>
