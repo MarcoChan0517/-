@@ -1,6 +1,8 @@
----
-layout: layout.html
----
+<nav>
+  <a href='/'>Home</a>
+  <a href='/contact'>Contact</a>
+  <a href='/about'>About</a>
+</nav>
 
 <style>
 
@@ -11,4 +13,4 @@ layout: layout.html
 
 </style>
 
-<h1>THANK YOU</h1>
+<h1>多謝查詢</h1>
